@@ -1,0 +1,1088 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #EFFFFD;
+    font-family: 'Inter', sans-serif;
+    height: 4000px;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Home Section */
+.home-section{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(265.91deg, #B8FFF9 52.22%, rgba(133, 244, 255, 0.65) 80.81%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    background: #FFFFFF;
+    width: 97%;
+    max-width: 1100px;
+    height: 60px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    transition: .5s ease-in-out;
+    z-index: 2;
+}
+
+.active_nav{
+    box-shadow: 10px 15px 10px 0px #00000080;
+}
+
+nav .left-section{
+    width: 50%;
+    margin-left: 2em;
+}
+
+nav .right-section{
+    width: 50%;
+    margin-right: 2em;
+}
+
+nav .left-section h2{
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+
+nav .right-section ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .right-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-style: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav .right-section ul li a:hover{
+    color: white;
+    transition: .4s ease;
+    background: black;
+}
+
+
+/* Home Body */
+
+.home-body{
+    display: flex;
+    width: 97%;
+    height: 500px;
+    max-width: 1100px;
+    margin-top: 8em;
+}
+
+.home-body .left-section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-body .left-section h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.home-body .left-section h2{
+    font-weight: 500;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.home-body .left-section p{
+
+}
+
+.home-body .left-section button{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #EFFFFD;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.home-body .left-section button:hover{
+    background: black;
+    transition: .5s ease-out;
+    cursor: pointer;
+    color: white;
+}
+
+.home-body .right-section{
+    position: relative;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-body .right-section .my-image{
+    background: url(/img/rifqi-image.png);
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+    margin-left: 7em;
+}
+
+.home-body .right-section .block1{
+    background: #EFFFFD;
+    width: 240px;
+    height: 270px;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.home-body .right-section .block2{
+    background: #85F4FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 2em;
+    right: 0;
+}
+/* About Me */
+
+.about-me-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-section h1{
+    justify-content: start;
+    max-width: 1100px;
+    width: 97%;
+}
+
+.about-me-section .section-wrapper{
+    display: flex;
+    width: 97%;
+    max-width: 1100px;
+    margin-top: 3em;
+}
+
+.about-me-section .section-wrapper .left-section{
+    width: 300px;
+    height: 350px;
+    background: url(/img/rifqi-photo.png) white;
+    background-size: cover;
+    box-shadow: 10px 15px 10px 0px #00000080;
+}
+
+.about-me-section .section-wrapper .right-section{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 8em;
+    gap: 30px;
+}
+
+.about-me-section .section-wrapper .right-section h2{
+    font-weight: 600;
+    font-style: bold;
+    font-size: 30px;
+}
+
+.about-me-section .section-wrapper .right-section p{
+    width: 400px;
+}
+
+/* My Experiences */
+
+.my-experiences-section{
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #AAF8FEA6;
+}
+
+.my-experiences-section h1{
+    margin-top: 2em;
+}
+
+/* App 1 */
+
+.my-experiences-section .section-wrapper{
+    display: flex;
+    width: 97%;
+    max-width: 1100px;
+    height: 400px;
+    margin-top: 3em;
+}
+
+.my-experiences-section .left-section-wrapper{
+    height: 220px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.my-experiences-section .left-section{
+    width: 1000px;
+    height: 220px;
+    max-width: 380px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.my-experiences-section .left-button::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.my-experiences-section .section-wrapper .left-button{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.my-experiences-section .section-wrapper .left-button:hover{
+    background: black;
+    color: white;
+    transition: .5s;
+}
+
+.my-experiences-section .section-wrapper .right-button{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.my-experiences-section .section-wrapper .right-button:hover{
+    background: black;
+    color: white;
+    transition: .5s;
+}
+
+.my-experiences-section .left-section::-webkit-scrollbar{
+    width: 4vw;
+}
+
+.my-experiences-section .left-section::-webkit-scrollbar-thumb{
+    background-color: #666;
+}
+
+.my-experiences-section .left-section::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+.my-experiences-section .left-section .image1{
+    background: url(/img/mediplants-home.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .left-section .image2{
+    background: url(/img/mediplants-articles.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .left-section .image3{
+    background: url(/img/mediplants-all-desease.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .right-section{
+    display: flex;
+    width: 650px;
+    gap: 50px;
+    margin-left: 4em;
+}
+
+.my-experiences-section .right-section .app-name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+
+.my-experiences-section .right-section .technology{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+
+.my-experiences-section .right-section .app-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+}
+
+.my-experiences-section .right-section .app-link a{
+    color: black;
+}
+
+/* App 2 */
+
+.my-experiences-section .left-section2 .image1{
+    background: url(/img/Login-Page-Website.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .right-section2{
+    display: flex;
+    width: 650px;
+    gap: 50px;
+}
+
+.my-experiences-section .right-section2 .app-name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+
+.my-experiences-section .right-section2 .technology{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+
+.my-experiences-section .right-section2 .app-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+}
+
+.my-experiences-section .right-section2 .app-link a{
+    color: black;
+    margin-right: 6em;
+}
+
+/* App 3 */
+
+.my-experiences-section .left-section3{
+    width: 1000px;
+    height: 220px;
+    max-width: 380px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.my-experiences-section .left-button::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.my-experiences-section .left-section3::-webkit-scrollbar{
+    width: 4vw;
+}
+
+.my-experiences-section .left-section3::-webkit-scrollbar-thumb{
+    background-color: #666;
+}
+
+.my-experiences-section .left-section3::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+.my-experiences-section .left-section3 .image1{
+    background: url(/img/nbs-homepage.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .left-section3 .image2{
+    background: url(/img/nbs-expertise.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+.my-experiences-section .left-section3 .image3{
+    background: url(/img/nbs-about.png);
+    min-width: 400px;
+    height: 200px;
+    background-size: cover;
+}
+
+/* Portfolio Button */
+
+.portfolio-button{
+    outline: none;
+    background: #85F4FF;
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    border: none;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.portfolio-button:hover{
+    transition: .5s ease;
+    background: #529ba17b;
+    color: white;
+    cursor: pointer;
+}
+
+/* Certificates */
+
+.certificates-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.certificates-section h1{
+    margin-top: 2em;
+}
+
+.certificates-section .certificates-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.certificates-section .certificates-wrapper{
+    display: flex;
+}
+
+.certificates-section .certificates-wrapper{
+    margin-top: 2em;
+    display: flex;
+    gap: 20px;
+    width: 820px;
+    max-width: 1500px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.certificates-section .certificates-wrapper .certificate1{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate1.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate2{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate2.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate3{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate3.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate4{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate4.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate5{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate5.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate6{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate6.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.certificates-section .certificates-wrapper .certificate7{
+    min-width: 420px;
+    height: 300px;
+    line-height: 300px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    background: url(/img/certificate7.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.certificates-section .certificates-wrapper::-webkit-scrollbar{
+    width: 4vw;
+    -webkit-appearance: none;
+}
+
+.certificates-section .certificates-wrapper::-webkit-scrollbar-thumb{
+    background-color: #666;
+}
+
+.certificates-section .certificates-wrapper::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+.certificates-section .certificates-container .left-button{
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    opacity: .5;
+    z-index: 1;
+}
+
+.certificates-section .certificates-container .left-button:hover{
+    transition: .5s;
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+.certificates-section .certificates-container .right-button{
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    opacity: .5;
+    z-index: 1;
+}
+
+.certificates-section .certificates-container .right-button:hover{
+    transition: .5s;
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: #AAF8FEA6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-media1{
+    display: flex;
+    gap: 20px;
+    margin-top: 2em;
+}
+
+.footer .social-media1 .gmail, .whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer .social-media1 .gmail::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media1 .gmail:hover::after{
+    width: 100%;
+}
+
+.footer .social-media1 .whatsapp::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media1 .whatsapp:hover::after{
+    width: 100%;
+}
+
+.footer .social-media1 svg{
+    width: 30px;
+    height: 30px;
+}
+
+.footer .social-media2{
+    display: flex;
+    gap: 40px;
+    margin-top: 2em;
+}
+
+.footer .social-media2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .social-media2 .linkedin, .instagram, .github, .dribble{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer .social-media2 .linkedin::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media2 .linkedin:hover::after{
+    width: 100%;
+}
+
+.footer .social-media2 .instagram::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media2 .instagram:hover::after{
+    width: 100%;
+}
+
+.footer .social-media2 .github::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media2 .github:hover::after{
+    width: 100%;
+}
+
+.footer .social-media2 .dribble::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    transition: width 0.3s;
+}
+
+.footer .social-media2 .dribble:hover::after{
+    width: 100%;
+}
+
+
+.footer .social-media2 svg{
+    width: 30px;
+    height: 30px;
+}
+
+/* Animation */
+
+.fadeInTop{
+    animation: fadeInTop 1.2s both;
+}
+
+.fadeInRight{
+    animation: fadeInRight 1.2s both;
+}
+
+.fadeInLeft{
+    animation: fadeInLeft 1.2s both;
+}
+
+@keyframes fadeInTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Menu Toggle */
+
+nav .menu-toggle{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    margin-right: 2em;
+    position: relative;
+    z-index: -1;
+}
+
+nav .menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+nav .menu-toggle span{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: black;
+    transition: all .5s;
+}
+
+nav .menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+
+nav .menu-toggle span:nth-child(2){
+    transform-origin: 0 100%;
+}
+
+nav .menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(0px, -6px);
+}
+
+nav .menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+
+nav .menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0%);
+    opacity: 0;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+    .about-me-section h1{
+        width: unset;
+    }
+
+    .about-me-section .section-wrapper{
+        width: unset;
+    }
+
+    .my-experiences-section .section-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-experiences-section{
+        height: 2500px;
+    }
+
+    .my-experiences-section h1{
+        margin-bottom: 2em;
+    }
+
+    .my-experiences-section .section-wrapper{
+        position: relative;
+        height: 550px;
+        display: flex;
+        margin-top: unset;
+    }
+
+    .my-experiences-section .section-wrapper .right-section{
+        margin-top: 2em;
+        height: 250px;
+        margin-left: unset;
+    }
+
+    .my-experiences-section .section-wrapper .right-section2{
+        order: 1;
+        margin-top: 2em;
+        bottom: 2.5em;
+        height: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    nav .right-section{
+        width: 60%;
+    }
+}
+
+@media (max-width: 900px) {
+    nav .right-section{
+        width: 70%;
+    }
+
+    .home-section{
+        height: 1000px;
+    }
+
+    .home-body{
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-body .left-section{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .home-body .right-section{
+        height: 500px;
+        width: 700px;
+    }
+
+    .home-body .right-section .my-image{
+        margin-left: unset;
+    }
+
+    .home-body .right-section .block1{
+        top: 10em;
+        left: 10em;
+    }
+
+    .home-body .right-section .block2{
+        right: 10em;
+        bottom: 0em;
+    }
+
+    .about-me-section{
+        height: 1000px;
+    }
+
+    .about-me-section .section-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .about-me-section .section-wrapper .right-section{
+        text-align: center;
+        margin-left: unset;
+        width: unset;
+        
+    }
+}
+
+@media (max-width: 780px) {
+
+    nav{
+        border-radius: 10px 10px 0 10px;
+    }
+
+    nav .right-section{
+        width: unset;
+    }
+
+    nav .right-section ul li{
+        position: absolute;
+        right: 0;
+        top: 7.7vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 70%;
+        height: 90vh;
+        background: white;
+        align-items: center;
+        z-index: -5;
+        transform: translateX(110%);
+        transition: all .5s;
+        opacity: 0;
+    }
+
+    nav .right-section ul li.slide{
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    nav .menu-toggle{
+        display: flex;
+    }
+
+
+    .my-experiences-section{
+        height: 4000px;
+    }
+
+    .my-experiences-section .section-wrapper{
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-experiences-section .section-wrapper .right-section{
+        flex-direction: column;
+        width: unset;
+        text-align: center;
+    }
+
+    .my-experiences-section .section-wrapper .right-section2{
+        flex-direction: column;
+        width: unset;
+        text-align: center;
+    }
+
+    .my-experiences-section .section-wrapper .right-section .app-link{
+        width: 250px;
+    }
+
+    .my-experiences-section .section-wrapper .right-section2 .app-link{
+        width: 250px;
+    }
+
+    .my-experiences-section .section-wrapper .app-link a{
+        margin-right: unset;
+    }
+
+    .my-experiences-section .section-wrapper2 .app-link a{
+        margin-right: unset;
+    }
+
+    .certificates-section .certificates-wrapper{
+        width: 410px;
+    }
+}
