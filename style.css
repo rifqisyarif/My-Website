@@ -112,7 +112,6 @@ nav .right-section ul li a:hover{
 }
 
 .home-body .left-section p{
-
 }
 
 .home-body .left-section button{
@@ -972,7 +971,7 @@ nav .menu-toggle input:checked ~ span:nth-child(3){
 
     .home-body .right-section{
         height: 500px;
-        width: 700px;
+        width: 100%;
     }
 
     .home-body .right-section .my-image{
@@ -1089,8 +1088,91 @@ nav .menu-toggle input:checked ~ span:nth-child(3){
 
 @media (max-width: 700px) {
 
-    body{
-        width: 110vh;
+    nav{
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .home-section{
+        height: 1200px;
+    }
+
+    .home-body .left-section{
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .home-body .left-section p{
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .footer{
+        height: 500px;
+    }
+
+    .footer .social-media1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .social-media2{
+        width: 250px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .home-body .right-section{
+        height: 400px;
+    }
+}
+
+@media (max-width: 400px) {   
+    
+    .about-me-section .section-wrapper .right-section{
+        width: 300px;
+    }
+
+    .about-me-section .section-wrapper .right-section p{
+        width: unset;
+    }
+
+    .my-experiences-section .left-section-wrapper{
+        max-width: 300px;
+        width: 95%;
+    }
+
+    .my-experiences-section .left-section1-wrapper{
+        max-width: 300px;
+        width: 95%;
     }
     
+    .my-experiences-section .left-section2-wrapper{
+        max-width: 300px;
+        width: 95%;
+    }
+
+    .my-experiences-section .left-section2 .image1{
+        min-width: 300px;
+    }
+
+    .my-experiences-section .left-section3-wrapper{
+        max-width: 300px;
+        width: 95%;
+    }
+
+    .home-body .right-section{
+        height: 300px;
+    }
+    
+    .portfolio-button{
+        width: 325px;
+    }
+
+    .certificates-section .certificates-wrapper{
+        width: 310px;
+    }
 }
