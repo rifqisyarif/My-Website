@@ -705,6 +705,11 @@ nav .right-section ul li a:hover{
     width: 100%;
 }
 
+.footer .social-media1 a{
+    text-decoration: none;
+    color: black;
+}
+
 .footer .social-media1 svg{
     width: 30px;
     height: 30px;
